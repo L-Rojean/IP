@@ -15,7 +15,7 @@ body {
     max-width: 360;
     width: 100%;
     max-height: 471px;
-    HEIGHT: 100%;
+    height: 100%;
     padding-top: 250px;
     text-align: center;
     background-color: #2B3252;
@@ -40,6 +40,16 @@ b {
     background-color: #FF3C00;
 }
 
+#logintro {
+    max-width: 360;
+    width: 100%;
+    max-height: 521px;
+    height: 100%;
+    padding-top: 200px;
+    text-align: center;
+    background-color: #2B3252;
+}
+
 #login {
     padding-top: 50px;
 }
@@ -55,5 +65,5 @@ b {
     margin-top: 30px;
     margin-left: 160px;
     color: white;
-    background-color: blue;;
+    background-color: #FF3C00;;
 }
