@@ -8,17 +8,15 @@
 </head>
 
 <body class="intro">
-    <b>Welcome to Kash Money</b> <br>
-    <b>Are you a...</b>
+    <b>Welcome back to Kash Money!</b> <br>
+    <b>Please log in...</b>
 
-    <div id="buttons">
-        <button type="button" onclick="document.location='survey.html'" class="introbutton">New Player</button>
-        <button type="button" onclick="document.location='login.html'" class="introbutton">Existing Player</button>
+    <div id="login">
+        <input type="text" class="loginput" name="username" placeholder="Enter Username..." maxlength="16">
+        <input type="password" class="loginput" name="password" placeholder="Enter Password..." maxlength="24"> <br>
+
+        <button type="submit" id="loginbutton" onclick="document.location='homepage.html'">Submit</button>
     </div>
 </body>
-
-<script>
-
-</script>
 
 </html>
