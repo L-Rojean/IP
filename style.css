@@ -11,6 +11,16 @@ body {
     background-color: #2B3252;
 }
 
+#logocontainer {
+    text-align: center;
+}
+
+#logo {
+    width: 200px;
+    margin: auto;
+    margin-top: 180px;
+}
+
 .intro {
     max-width: 360;
     width: 100%;
