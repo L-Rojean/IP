@@ -11,16 +11,85 @@
     <b>Welcome to Kash Money</b> <br>
     <b id="sub">Please answer the following set of questions for us to determine your expense prioritisation...</b>
 
-    <form>
-        <p></p>
-        <input type="radio" id="male" name="gender" value="male">
-        <label for="male">Male</label><br>
-        <input type="radio" id="female" name="gender" value="female">
-        <label for="female">Female</label><br>
-        <input type="radio" id="other" name="gender" value="other">
-        <label for="other">Other</label>
-    </form>
+    <form id="regForm">
+        <div class="tab">
+            <div class="question">What is your total annual household income?</div>
+            <div class="options">
+                <input type="radio" id="q1option1" name="qns1" value="Less than $60,000">
+                <label for="q1option1">Less than $60,000</label><br>
+                <input type="radio" id="q1option2" name="qns1" value="Between $60,000 to $120,000">
+                <label for="q1option2">Between $60,000 to $120,000</label><br>
+                <input type="radio" id="q1option3" name="qns1" value="More than $120,000">
+                <label for="q1option3">More than $120,000</label>
+            </div>
+        </div>
+        
+        <div class="tab">
+            <div class="question">What is your monthly utility cost? (Electrical/Water Bill etc.)</div>
+            <div class="options">
+                <input type="radio" id="q2option1" name="qns2" value="Less than $200">
+                <label for="q2option1">Less than $200</label><br>
+                <input type="radio" id="q2option2" name="qns2" value="Between $200 to $500">
+                <label for="q2option2">Between $200 to $500</label><br>
+                <input type="radio" id="q2option3" name="qns2" value="More than $500">
+                <label for="q2option3">More than $500</label>
+            </div>
+        </div>
+        
+        <div class="tab">
+            <div class="question">How often do you take public transport? (MRT, Public Bus, Cabs, Grab etc.)</div>
+            <div class="options">
+                <input type="radio" id="q3option1" name="qns3" value="Often">
+                <label for="q3option1">Often</label><br>
+                <input type="radio" id="q3option2" name="qns3" value="Sometimes">
+                <label for="q3option2">Sometimes</label><br>
+                <input type="radio" id="q3option3" name="qns3" value="Seldom">
+                <label for="q3option3">Seldom</label>
+            </div>
+        </div>
+        
+        <div class="tab">
+            <div class="question">How often do you eat out? (Eat outside, Order takeaways/delivery etc.)</div>
+            <div class="options">
+                <input type="radio" id="q4option1" name="qns4" value="Often">
+                <label for="q4option1">Often</label><br>
+                <input type="radio" id="q4option2" name="qns4" value="Sometimes">
+                <label for="q4option2">Sometimes</label><br>
+                <input type="radio" id="q4option3" name="qns4" value="Seldom">
+                <label for="q4option3">Seldom</label>
+            </div>
+        </div>
+
+        <div class="tab">
+            <div class="question">How much do you spend on yourself monthly? (Clothing, Recreational Activities, Entertainment etc.)</div>
+            <div class="options">
+                <input type="radio" id="q5option1" name="qns5" value="Less than $400">
+                <label for="q5option1">Less than $400</label><br>
+                <input type="radio" id="q5option2" name="qns5" value="Between $400 to $600">
+                <label for="q5option2">Between $400 to $600</label><br>
+                <input type="radio" id="q5option3" name="qns5" value="More than $600">
+                <label for="q5option3">More than $600</label>
+            </div>
+        </div>
+        
+        <div style="overflow:auto;">
+            <div style="float:right;">
+            <button type="button" class="button" id="prevBtn" onclick="nextPrev(-1)">Previous</button>
+            <button type="button" class="button" id="nextBtn" onclick="nextPrev(1)">Next</button>
+            </div>
+        </div>
+        
+        <!-- Circles which indicates the steps of the form: -->
+        <div style="text-align:center;margin-top:40px;">
+            <span class="step"></span>
+            <span class="step"></span>
+            <span class="step"></span>
+            <span class="step"></span>
+        </div>
+    </form>  
 
 </body>
+
+<script src="survey.js"></script>
 
 </html>

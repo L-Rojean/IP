@@ -72,5 +72,84 @@ b {
     margin-top: 30px;
     margin-left: 160px;
     color: white;
-    background-color: #FF3C00;;
+    background-color: #FF3C00;
+}
+
+.question {
+    margin-top: 30px;
+    font-size: 15px;
+    color: white;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: lighter; 
+}
+
+label {
+    margin: -30px;
+    color: white;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: lighter; 
+}
+
+input {
+    width: 100px;
+    font-size: 17px;
+    font-family: Raleway;
+}
+
+input.invalid {
+    background-color: #ffdddd;
+}
+
+.tab {
+    display: none;
+}
+
+.question {
+    color: white;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: lighter; 
+}
+
+.options {
+    margin-left: -75px;
+    padding: 10px;
+}
+
+.button {
+    margin-top: 20px;
+    margin-right: 60px;
+    background-color: #FF3C00;
+    color: #ffffff;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 17px;
+    font-family: 'Roboto Condensed', sans-serif;
+    cursor: pointer;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+#prevBtn {
+    background-color: #bbbbbb;
+}
+
+.step {
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbbbbb;
+    border: none;  
+    border-radius: 50%;
+    display: inline-block;
+    opacity: 0.5;
+}
+
+.step.active {
+    opacity: 1;
+}
+
+.step.finish {
+    background-color: #FF3C00;
 }
