@@ -26,7 +26,7 @@ function nextPrev(n) {
     document.getElementById("regForm").submit();
     document.getElementById("nextBtn").addEventListener("click", myFunction);
        function myFunction() {
-         window.location.href="homepage.html";
+         window.location.href="homepage.html"
        }
     return false;
   }
