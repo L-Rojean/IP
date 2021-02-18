@@ -24,6 +24,10 @@ function nextPrev(n) {
   currentTab = currentTab + n;
   if (currentTab >= x.length) {
     document.getElementById("regForm").submit();
+    document.getElementById("nextBtn").addEventListener("click", myFunction);
+       function myFunction() {
+         window.location.href="homepage.html";
+       }
     return false;
   }
 
