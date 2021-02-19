@@ -1,0 +1,43 @@
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link href="Normalize.css" rel="stylesheet" type="text/css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400&display=swap" rel="stylesheet">
+</head>
+
+<body class="intro">
+    <b>Welcome to Kash Money</b> <br>
+    <b id="sub">Please answer the following set of questions for us to determine your expense prioritisation...</b>
+
+    <form id="regForm">
+
+        <div class="tab">
+            <div class="question">How much do you spend on yourself monthly? (Clothing, Recreational Activities, Entertainment etc.)</div>
+            <div class="options">
+                <input type="radio" id="q5option1" name="qns5" value="Less than $400">
+                <label for="q5option1">Less than $400</label><br>
+                <input type="radio" id="q5option2" name="qns5" value="Between $400 to $600">
+                <label for="q5option2">Between $400 to $600</label><br>
+                <input type="radio" id="q5option3" name="qns5" value="More than $600">
+                <label for="q5option3">More than $600</label>
+            </div>
+        </div>
+
+        
+        <div style="overflow:auto;">
+            <div style="float:right;">
+            <button type="button" class="button" id="prevBtn" onclick="document.location='surveyq4.html'">Previous</button>
+            <button type="button" class="button" id="nextBtn" onclick="document.location='createacc.html'">Next</button>
+            </div>
+        </div>
+
+
+    </form>  
+
+</body>
+
+<script src="index.js"></script>
+
+</html>

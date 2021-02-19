@@ -1,0 +1,42 @@
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link href="Normalize.css" rel="stylesheet" type="text/css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400&display=swap" rel="stylesheet">
+</head>
+
+<body class="intro">
+    <b>Welcome to Kash Money</b> <br>
+    <b id="sub">Please answer the following set of questions for us to determine your expense prioritisation...</b>
+
+    <form id="regForm">
+        
+        <div class="tab">
+            <div class="question">How often do you eat out? (Eat outside, Order takeaways/delivery etc.)</div>
+            <div class="options">
+                <input type="radio" id="q4option1" name="qns4" value="Often">
+                <label for="q4option1">Often</label><br>
+                <input type="radio" id="q4option2" name="qns4" value="Sometimes">
+                <label for="q4option2">Sometimes</label><br>
+                <input type="radio" id="q4option3" name="qns4" value="Seldom">
+                <label for="q4option3">Seldom</label>
+            </div>
+        </div>
+        
+        <div style="overflow:auto;">
+            <div style="float:right;">
+            <button type="button" class="button" id="prevBtn" onclick="document.location='surveyq3.html'">Previous</button>
+            <button type="button" class="button" id="nextBtn" onclick="document.location='surveyq5.html'">Next</button>
+            </div>
+        </div>
+
+
+    </form>  
+
+</body>
+
+<script src="index.js"></script>
+
+</html>

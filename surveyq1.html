@@ -1,0 +1,39 @@
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link href="Normalize.css" rel="stylesheet" type="text/css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400&display=swap" rel="stylesheet">
+</head>
+
+<body class="intro">
+    <b>Welcome to Kash Money</b> <br>
+    <b id="sub">Please answer the following set of questions for us to determine your expense prioritisation...</b>
+
+    <form id="regForm">
+        <div class="tab">
+            <div class="question">What is your total annual household income?</div>
+            <div class="options">
+                <input type="radio" id="q1option1" name="qns1" value="Less than $60,000" required>
+                <label for="q1option1">Less than $60,000</label><br>
+                <input type="radio" id="q1option2" name="qns1" value="Between $60,000 to $120,000" required>
+                <label for="q1option2">Between $60,000 to $120,000</label><br>
+                <input type="radio" id="q1option3" name="qns1" value="More than $120,000" required>
+                <label for="q1option3">More than $120,000</label>
+            </div>
+        </div>
+
+        <div style="overflow:auto;">
+            <div style="float:right;">
+            <button type="button" class="button" id="nextBtn" onclick="document.location='surveyq2.html'">Next</button>
+            </div>
+        </div>
+        
+    </form>  
+
+</body>
+
+<script src="index.js"></script>
+
+</html>

@@ -1,0 +1,39 @@
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link href="Normalize.css" rel="stylesheet" type="text/css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400&display=swap" rel="stylesheet">
+</head>
+
+<body class="intro">
+    <b>Welcome to Kash Money</b> <br>
+    <b id="sub">Please answer the following set of questions for us to determine your expense prioritisation...</b>
+
+        <div class="tab">
+            <div class="question">What is your monthly utility cost? (Electrical/Water Bill etc.)</div>
+            <div class="options">
+                <input type="radio" id="q2option1" name="qns2" value="Less than $200">
+                <label for="q2option1">Less than $200</label><br>
+                <input type="radio" id="q2option2" name="qns2" value="Between $200 to $500">
+                <label for="q2option2">Between $200 to $500</label><br>
+                <input type="radio" id="q2option3" name="qns2" value="More than $500">
+                <label for="q2option3">More than $500</label>
+            </div>
+        </div>
+        
+        <div style="overflow:auto;">
+            <div style="float:right;">
+            <button type="button" class="button" id="prevBtn" onclick="document.location='surveyq1.html'">Previous</button>
+            <button type="button" class="button" id="nextBtn" onclick="document.location='surveyq3.html'">Next</button>
+            </div>
+        </div>        
+
+    </form>  
+
+</body>
+
+<script src="index.js"></script>
+
+</html>

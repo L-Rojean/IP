@@ -1,0 +1,19 @@
+{
+  "name": "ip",
+  "version": "1.0.0",
+  "description": "This is a **MOBILE** web-application used for tracking expenses and maintaining financial health.\r - [GitHub URL](Link)\r ## Design Process\r Website is made for general public.\r Wireframe Link:\r - [Adobe XD Share URL](Link)\r ## Features\r - **Homepage** - Show Financial Health\r ### Existing Features\r - Homepage - Show Financial Health\r - Survey - Ask questions to idk\r ### Features Left to Implement\r - \r ## Technologies Used\r - [Technology Name](Link)\r     - The project uses **Technology Name** to create Something.\r - [HTML5]\r     - The project uses **HTML5** to create HTML Markup.\r - [CSS]\r     - The project uses **CSS** to create CSS styling.\r - [Javascript]\r     - The project uses **Javascript** to create interactivity.\r ## Testing\r 1. Website Navigation:\r     1. Something\r     2. Something\r     3. Something\r     4. Something\r     5. Something",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/L-Rojean/IP.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/L-Rojean/IP/issues"
+  },
+  "homepage": "https://github.com/L-Rojean/IP#readme"
+}

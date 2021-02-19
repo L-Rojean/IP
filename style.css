@@ -16,15 +16,14 @@ body {
 }
 
 #logo {
-    width: 200px;
-    margin: auto;
+    width: 320px;
     margin-top: 180px;
 }
 
 .intro {
     max-width: 360;
     width: 100%;
-    max-height: 471px;
+    max-height: 571px;
     height: 100%;
     padding-top: 250px;
     text-align: center;
@@ -110,8 +109,22 @@ input.invalid {
     background-color: #ffdddd;
 }
 
-.tab {
-    display: none;
+#register {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+#username {
+    width: 150px;
+    height: 40px;
+    margin: auto;
+}
+
+#password {
+    width: 150px;
+    height: 40px;
+    margin: auto;
 }
 
 .question {
