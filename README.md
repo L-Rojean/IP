@@ -1,4 +1,4 @@
-# Bus Timing App (SGOutside)
+# Tracking Expenses and Financial Health Web App
 This is a **MOBILE** web-application used for tracking expenses and maintaining financial health.
 - [GitHub URL](Link)
 ## Design Process
