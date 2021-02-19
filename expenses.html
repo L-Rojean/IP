@@ -13,7 +13,6 @@
 	<body>
 		<div id="content-container" >
 
-
 			<div id="page_expenses_page_ek1"  >
 				<div id="_bg__expenses_page_ek2"  ></div>
 				<div id="rectangle_34"  ></div>
@@ -64,7 +63,10 @@
 				<div id="savings_25_" >
 					Savings<br/>25%
 				</div>
-				<div id="expenses_ek2"  ></div>
+				<div id="overlay">
+					<button onclick="off()"></button>
+				</div>
+				<button id="expenses_ek2" onclick="editExpenses()" >Edit</button>
 				<a id="edit" href="edit.html" >
 					EDIT
                 </a>
@@ -86,6 +88,6 @@
 
 		</div>
 	</body>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
+	<script src="index.js"></script>
 </html>

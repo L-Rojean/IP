@@ -16,20 +16,6 @@
 //     expenses.utilities = document.getElementById("utilities").value;
 // };
 
-// if (health == "low") {
-//     function lowHealth() {
-//         document.getElementById("#background").style.backgroundImage = "images/Homepage/Low Health BG.png";
-//     }
-// } else if (health == "mid") {
-//     function midHealth() {
-//         document.getElementById("#background").style.backgroundImage = "images/Homepage/mid_health.png";
-//     }
-// } else {
-//     function highHealth() {
-//         document.getElementById("#background").style.backgroundImage = "images/Homepage/High Health BG.png"
-//     }
-// };
-
 
   //[STEP 0]: Make sure our document is A-OK
 $(document).ready(function account() {
@@ -260,3 +246,37 @@ $(document).ready(function expenses() {
     })//end updateform function
   
   });
+
+  function editExpenses() {
+    document.getElementById("overlay").style.display = "block";
+
+  };
+
+  function off() {
+    document.getElementById("overlay").style.display = "none";
+  };
+
+  function changeBackground() {
+    if (health == "low") {
+      var background = document.getElementById('_bg__homepage_ek2');
+      background.setAttribute('src', 'images/Homepage/Low Health BG.png');
+      var character = document.getElementById('charactermodel');
+      character.setAttribute('src', 'images/Homepage//sad_character.png');
+      var pet = document.getElementById('pet');
+      pet.setAttribute('src', 'images/Homepage/moneypet.png');
+    } else if (health == "mid") {
+      var background = document.getElementById('_bg__homepage_ek2');
+      background.setAttribute('src', 'images/Homepage//character.png');
+      var character = document.getElementById('charactermodel');
+      character.setAttribute('src', 'images/Homepage//sad_character.png');
+      var pet = document.getElementById('pet');
+      pet.setAttribute('src', 'images/Homepage/moneypet.png');
+    } else {
+      var background = document.getElementById('_bg__homepage_ek2');
+      background.setAttribute('src', 'images/Homepage/High Health BG.png');
+      var character = document.getElementById('charactermodel');
+      character.setAttribute('src', 'images/Homepage//happy_character.png');
+      var pet = document.getElementById('pet');
+      pet.setAttribute('src', 'images/Homepage/moneypet.png');
+    };
+  };
