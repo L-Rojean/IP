@@ -24,6 +24,24 @@ div { position: absolute; }
 	background:rgba(43,50,82,255);
 }
 
+#character {
+	margin: auto;
+	display: flex;
+	flex-direction: row;
+}
+
+#charactermodel {
+	width: 400px;
+	margin-left: -20px;
+	margin-top: 300px;
+}
+
+#moneypet {
+	width: 100px;
+	margin-top: 400px;
+	margin-left: 275px;
+}
+
 
 #outer_circle___coin_hole___inner_circle___btm_dollah___top_dollah {
 	top: 240px;
