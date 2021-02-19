@@ -21,8 +21,6 @@ Wireframe Link:
     - The project uses **CSS** to create CSS styling.
 - [Javascript]
     - The project uses **Javascript** to create interactivity.
-- [jQuery](https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js)
-    - The project uses **jQuery** to simplify javascript.
 ## Testing
 1. Website Navigation:
     1. Something
