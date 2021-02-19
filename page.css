@@ -1256,9 +1256,9 @@ div { position: absolute; }
 }
 
 
-#scroll_group_3 {
+#lottie_animation {
 	top: 423px;
-	left: 60px;
+	left: 40px;
 	width: 265px;
 	height: 296px;
 }
@@ -2104,8 +2104,8 @@ div { position: absolute; }
 }
 
 
-#scroll_group_2 {
-	top: 244px;
+#friends {
+	top: 330px;
 	left: 42px;
 	width: 300px;
 	height: 448px;
